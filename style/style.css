@@ -7,10 +7,11 @@ body {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
     gap: 100px;
-    justify-content:space-between;
+    justify-content: space-between;
 
 }
-#head_img{
+
+#head_img {
     width: 650px;
     height: 850px;
     margin-right: 250px;
@@ -32,7 +33,7 @@ body {
 }
 
 .head_discription {
-    width: 634px;
+    max-width: 630px;
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
@@ -53,3 +54,77 @@ body {
     font-weight: 700;
     border: none;
 }
+
+/* section_2 */
+.section_2 {
+    margin-top: 170px;
+
+}
+
+.sec_2_title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.sec_2_discription {
+    max-width: 600px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.row_2 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.row_2 .sec_2_pic .pic_slyle_1 {
+    width: 450px;
+    height: 630px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding-top: 120px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.row_2 .sec_2_pic .pic_slyle_2 {
+    width: 510px;
+    height: 590px;
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+    padding-top: 110px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 50px;
+}
+.row_2 .sec_2_pic .pic_slyle_3{
+    width: 450px;
+    height: 680px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding-top: 70px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+
+.row_2 .sec_2_pic .pic_dis {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/* Section_3 */
