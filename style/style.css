@@ -198,7 +198,7 @@ body {
 
 .sec_5_column1 {
     text-align: center;
-    margin-top: 230px;
+    margin-top: 180px;
     margin-bottom: 160px;
     margin-left: 400px;
 }
@@ -228,7 +228,108 @@ body {
 .sec_5_img {
     width: 320px;
     height: 420px;
-    margin-top: 120px;
-    margin-bottom: 80px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     margin-right: 450px;
+}
+
+/* section_6 */
+.section_6 .sec_6_row1 {
+    margin-top: 130px;
+}
+
+.section_6 .sec_2_title {
+    margin-bottom: 20px;
+}
+
+.sec_6_img {
+    width: 350px;
+    height: 400px;
+}
+
+.section_6 .row_2 {
+    margin-bottom: 120px;
+}
+
+/* Section_7 */
+.section_7 {
+    background: url('../Flower Asset/Rectangle 9.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1480px;
+    height: 450px;
+    border-radius: 8px;
+    text-align: center;
+    background-position: center;
+
+}
+
+.sec_7_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+#sec_7_email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-right: 20px;
+}
+
+.sec_7_container .section_7 .sec_2_title {
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+
+.sec_7_container .section_7 .sec_2_discription {
+    margin-bottom: 50px;
+}
+
+/* footer */
+footer {
+    background: #111010;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer h3 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 130px;
+    margin-bottom: 25px;
+}
+
+#foot_title {
+    color: #E55473;
+}
+
+#foo_discription {
+    width: 620px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+}
+
+#last_line {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 130px;
 }
